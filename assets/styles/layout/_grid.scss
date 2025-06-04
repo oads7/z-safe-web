@@ -1,0 +1,38 @@
+.image-background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image ease-in-out 0.5s;
+  z-index: -1;
+}
+
+.dot {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid $color-grayish-white;
+  &--green { background-color: $color-green }
+  &--yellow { background-color: $color-orange }
+  &--red { background-color: $color-red }
+}
+
+.component-rounded {
+  border-radius: 16px;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  padding: 4px;
+
+  transition: background-color ease-in-out 0.2s;
+  &:active {
+    background-color: $color-grayish-white;
+    transition: background-color ease-in-out 0.2s;
+  }
+}

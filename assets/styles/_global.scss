@@ -1,0 +1,50 @@
+// Import constants
+@import 'constants/colors';
+@import 'constants/fonts';
+
+// Import controls
+//@import 'controls/accordion';
+@import 'controls/button';
+//@import 'controls/input';
+//@import 'controls/label';
+@import 'controls/link';
+//@import 'controls/modal';
+//@import 'controls/radio';
+//@import 'controls/select';
+@import 'controls/toast';
+
+// Import layout
+@import 'layout/card';
+@import 'layout/grid';
+
+* {
+  //font-family: 'Poppins';
+  //color: $color-gray;
+  //background-color: $color-white;
+}
+
+/*
+html, body {
+  font-family: 'Poppins';
+  height: 100%;
+  color: $color-gray;
+  background-color: $color-white;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins';
+}
+*/
+
+/*
+html:has(app-layout) {
+  margin-top: env(safe-area-inset-top);
+  //width: 100dvw;
+}
+
+body:has(app-layout) {
+  height: calc(100dvh - env(safe-area-inset-top)) !important;
+  width: calc(100dvw - env(safe-area-inset-left) - env(safe-area-inset-right)) !important;
+}
+*/

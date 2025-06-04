@@ -1,0 +1,33 @@
+.button {
+  padding: 8px 24px;
+  color: $color-white;
+  background-color: $color-blue-light;
+  border-radius: 24px;
+  transition: background-color ease-in-out 0.2s;
+  &:active {
+    background-color: $color-blue;
+    transition: background-color ease-in-out 0.2s
+  }
+  &:focus { outline: none }
+  &:disabled {
+    color: $color-gray;
+    background-color: $color-gray-light;
+  }
+
+  &--yellow {
+    color: $color-blue-dark;
+    background-color: $color-yellow;
+    &:active {
+      color: $color-blue-dark;
+      background-color: $color-orange;
+    }
+  }
+  &--blue-dark {
+    color: $color-white;
+    background-color: $color-blue-dark;
+    &:active {
+      color: $color-white;
+      background-color: $color-blue;
+    }
+  }
+}
